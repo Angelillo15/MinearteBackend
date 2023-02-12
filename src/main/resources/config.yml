@@ -1,0 +1,29 @@
+#
+# ███▄ ▄███▓ ██▓ ███▄    █ ▓█████ ▄▄▄       ██▀███  ▄▄▄█████▓▓█████
+# ▓██▒▀█▀ ██▒▓██▒ ██ ▀█   █ ▓█   ▀▒████▄    ▓██ ▒ ██▒▓  ██▒ ▓▒▓█   ▀
+# ▓██    ▓██░▒██▒▓██  ▀█ ██▒▒███  ▒██  ▀█▄  ▓██ ░▄█ ▒▒ ▓██░ ▒░▒███
+# ▒██    ▒██ ░██░▓██▒  ▐▌██▒▒▓█  ▄░██▄▄▄▄██ ▒██▀▀█▄  ░ ▓██▓ ░ ▒▓█  ▄
+# ▒██▒   ░██▒░██░▒██░   ▓██░░▒████▒▓█   ▓██▒░██▓ ▒██▒  ▒██▒ ░ ░▒████▒
+# ░ ▒░   ░  ░░▓  ░ ▒░   ▒ ▒ ░░ ▒░ ░▒▒   ▓▒█░░ ▒▓ ░▒▓░  ▒ ░░   ░░ ▒░ ░
+# ░  ░      ░ ▒ ░░ ░░   ░ ▒░ ░ ░  ░ ▒   ▒▒ ░  ░▒ ░ ▒░    ░     ░ ░  ░
+# ░      ░    ▒ ░   ░   ░ ░    ░    ░   ▒     ░░   ░   ░         ░
+# ░    ░           ░    ░  ░     ░  ░   ░                 ░  ░
+#
+# This is the main configuration file for the web server.
+#
+# This file is divided into sections, each section has its own
+# configuration options. You can find more information about
+# each option in the comments above it.
+#
+# If you need help with the configuration or have any questions
+# related to this file, join our Discord server: https://discord.nookure.com/
+#
+Config:
+  # The port that the web server will listen on.
+  #
+  # Default: 8080
+  #
+  port: 8080
+  # Tebex API key.
+  #
+  tebex-api-key: "your-tebex-api-key"
