@@ -2,7 +2,7 @@ package net.minearte.web.config;
 
 import es.angelillo15.configmanager.ConfigManager;
 import lombok.Getter;
-import net.minearte.web.Main;
+import net.minearte.web.Server;
 
 import java.io.File;
 import java.net.URISyntaxException;
@@ -15,7 +15,7 @@ public class ConfigLoader {
     private static String path;
 
     public ConfigLoader(){
-        CodeSource codeSource = Main.class.getProtectionDomain().getCodeSource();
+        CodeSource codeSource = Server.class.getProtectionDomain().getCodeSource();
         File jarFile = null;
         try {
             jarFile = new File(codeSource.getLocation().toURI().getPath());
